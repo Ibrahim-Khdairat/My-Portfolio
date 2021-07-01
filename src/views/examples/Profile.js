@@ -23,7 +23,7 @@ import { Button, Card, Container, Row, Col } from "reactstrap";
 // core components
 import DemoNavbar from "components/Navbars/DemoNavbar.js";
 import SimpleFooter from "components/Footers/SimpleFooter.js";
-import profile from "assets/img/theme/team-4-800x800.jpg";
+import profile from "assets/img/theme/ibrahim.JPG";
 
 class Profile extends React.Component {
   componentDidMount() {
@@ -108,51 +108,52 @@ class Profile extends React.Component {
                     <Col className="order-lg-1" lg="4">
                       <div className="card-profile-stats d-flex justify-content-center">
                         <div>
-                          <span className="heading">22</span>
-                          <span className="description">Friends</span>
+                          <span className="heading">5</span>
+                          <span className="description">Projects</span>
                         </div>
                         <div>
-                          <span className="heading">10</span>
+                          <span className="heading">1</span>
                           <span className="description">Photos</span>
                         </div>
-                        <div>
+                        {/* <div>
                           <span className="heading">89</span>
                           <span className="description">Comments</span>
-                        </div>
+                        </div> */}
                       </div>
                     </Col>
                   </Row>
                   <div className="text-center mt-5">
-                    <h3>
-                      Jessica Jones{" "}
-                      <span className="font-weight-light">, 27</span>
-                    </h3>
+                    <h2>
+                      Ibrahim Khdairat{" "}
+                      <span className="font-weight-light">  </span>
+                    </h2>
                     <div className="h6 font-weight-300">
                       <i className="ni location_pin mr-2" />
-                      Bucharest, Romania
+                      Irbid, Jordan
                     </div>
                     <div className="h6 mt-4">
                       <i className="ni business_briefcase-24 mr-2" />
-                      Solution Manager - Creative Tim Officer
+                      Full Stack Web Developer
                     </div>
                     <div>
                       <i className="ni education_hat mr-2" />
-                      University of Computer Science
+                      LTUC - Abdul Aziz Al Ghurair School of Advanced Technology ( ASAC ).
                     </div>
                   </div>
                   <div className="mt-5 py-5 border-top text-center">
                     <Row className="justify-content-center">
                       <Col lg="9">
+                        <h3>I build value by programming.</h3>
                         <p>
-                          An artist of considerable range, Ryan — the name taken
-                          by Melbourne-raised, Brooklyn-based Nick Murphy —
-                          writes, performs and records all of his own music,
-                          giving it a warm, intimate feel with a solid groove
-                          structure. An artist of considerable range.
+                        Multidisciplinary web developer who hacks at, makes and occasionally breaks things.
+                        Originally hailing from JORDAN. I’ve been honing my skills in Web Developing, building products for the websites and web applications.
+
                         </p>
-                        <a href="#pablo" onClick={e => e.preventDefault()}>
+                        <h5>Have an interesting project ?  <a href="mailto:ibrahimkuderat@gmail.com " target ="_blank">Let's talk</a> </h5>
+                        
+                        {/* <a href="#pablo" onClick={e => e.preventDefault()}>
                           Show more
-                        </a>
+                        </a> */}
                       </Col>
                     </Row>
                   </div>
