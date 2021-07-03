@@ -133,7 +133,9 @@ class Profile extends React.Component {
                     </div>
                     <div className="h6 mt-4">
                       <i className="ni business_briefcase-24 mr-2" />
-                      Full Stack Web Developer
+                      <p>Full Stack Web Developer</p>
+                      <p>Power Electrical Engineer</p>
+
                     </div>
                     <div>
                       <i className="ni education_hat mr-2" />
